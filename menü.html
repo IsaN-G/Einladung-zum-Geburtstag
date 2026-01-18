@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menü – Isabelle & Yvonne</title>
+
+<style>
+/* ===== BODY & CARD ===== */
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background: #1a1216;
+  color: #000; /* schwarze Schrift */
+}
+
+.card {
+  max-width: 420px;
+  margin: 30px auto;
+  padding: 26px;
+  border-radius: 26px;
+  text-align: center;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.05), rgba(255, 255, 255, 0.562)),
+    url("https://static.vecteezy.com/system/resources/previews/028/595/392/large_2x/glitter-background-with-champagne-bottle-free-photo.jpg");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.7);
+}
+
+/* ===== HEADINGS ===== */
+h2 {
+  font-size: 1rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: #0f0f0d;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.3rem;
+  background: linear-gradient(90deg, #a224c9, #ca099a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ===== DIVIDER ===== */
+.divider {
+  width: 70px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #c603f700, transparent);
+  margin: 20px auto;
+}
+
+/* ===== SECTION ===== */
+.section {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.section h3 {
+  font-size: 0.9rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #7a0697;
+  margin-bottom: 10px;
+}
+
+/* ===== LIST ITEMS ===== */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: #000; /* schwarze Schrift */
+  padding-left: 14px;
+  position: relative;
+  margin-bottom: 6px;
+}
+
+li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #ca099a;
+}
+
+/* ===== BUTTON ===== */
+.button {
+  display: block;
+  padding: 11px 22px;
+  border-radius: 24px;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-decoration: none;
+  margin: 8px 0;
+  background: linear-gradient(90deg, #a224c9, #ca099a);
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.button.secondary {
+  background: transparent;
+  color: #000;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.4);
+}
+
+/* ===== FOOTER ===== */
+footer {
+  margin-top: 20px;
+  font-size: 0.95rem;
+  color: #3b082f;
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+<div class="card">
+  <h2>Menü</h2>
+  <h1>Fingerfood-Buffet</h1>
+
+  <div class="divider"></div>
+
+  <div class="section">
+    <h3>🍲 Warme Speisen</h3>
+    <ul>
+      <li>Frühlingsrollen</li>
+      <li>Kleine Pizzen</li>
+      <li>Frittierte Garnelen im Bierteig</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3>🥗 Mediterran & kalt</h3>
+    <ul>
+      <li>Mediterraner Nudelsalat</li>
+      <li>Lachs-Limettenrolle mit Frischkäse</li>
+      <li>Antipasti mit Zucchini, Paprika & Champignons</li>
+      <li>Gefüllte milde Chilischoten</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3>🍞 Brot & Beilagen</h3>
+    <ul>
+      <li>Frisches Ciabatta mit Kräuterquark</li>
+    </ul>
+  </div>
+
+  <a class="button" href="index.html">← Zurück zur Einladung</a>
+
+  <footer>Guten Appetit </footer>
+</div>
+</body>
+</html>
+
+
+
